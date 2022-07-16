@@ -58,7 +58,7 @@ label{
     margin-bottom: .2em;
 }
 
-.input{
+.input, select{
     margin-left: 2em;
     display: block;
     width: 100%;
@@ -69,14 +69,14 @@ label{
     text-align: center;
 }
 
-input{
+input, select{
     border: none;
     border-radius: 10px;
     padding: 10px;
     outline: none;
 }
 
-input:focus{
+input:focus,select:focus{
     border: 2px solid rgb(67, 187, 177);
 }
 
@@ -99,3 +99,14 @@ button{
     font-size: 16px;
     font-weight: bold;
 }
+
+.resultado{
+    margin-top: 2em;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-primary{
+    width: 100%;
+}
+
