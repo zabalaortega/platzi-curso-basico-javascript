@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Porcentajes y Descuentos</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+        <p>Este es el segundo taller del curso practivo de Javascrip</p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Calcular el precio a pagar de tus productos con descuento</h2>
+            <form>
+                <div class="form-group">
+                    <label class="label" for="inputPrice">Precio</label>
+                    <input class="input" id="inputPrice" type="number">
+                </div>
+    
+                <div class="form-group">
+                    <label class="label" for="inputDiscount">Descuento</label>
+                    <input class="input" id="inputDiscount" type="number">
+                </div>
+    
+                <div class="button">
+                    <button type="button" class="btn-primary" onclick="calcularDescuento()">Calcular el precio con descuento</button>
+                </div>
+    
+    
+                <p class="resultado" id="result"></p>
+            </form>
+        </section>
+    
+        <section>
+            <h2>Calcular el precio a pagar de tus productos con cupones</h2>
+            <form>
+                <div class="form-group">
+                    <label class="label" for="inpPrice">Precio</label>
+                    <input class="input" id="inpPrice" type="number">
+                </div>
+    
+                <div class="form-group">
+                    <label class="label" for="inputDiscount">Cupon Descuento</label>
+                    <select id="cupones" name="cupones">
+                        <option  value="" disabled selected>selecciones el cupon</option>
+                        <option value="15">15%</option>
+                        <option value="20">20%</option>
+                        <option value="30">30%</option>
+                    </select>
+
+                </div>
+    
+                <div class="button">
+                    <button type="button" class="btn-primary" onclick="calcularDes()">Calcular el precio con descuento</button>
+                </div>
+    
+    
+                <p class="resultado" id="resultadoCupon"></p>
+            </form>
+        </section>
+    </div>
+
+
+    <script src="descuento.js"></script>
+</body>
+</html>

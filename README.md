@@ -8,3 +8,10 @@ Curso Basico de Javascript
 - Segundo paso: implementar la formulas en javasscrip
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS en HTML
+
+## Taller #2: Porcentajes y Descuentos
+
+- Primer paso: definir las formulas
+- Segundo paso: implementar la formulas en javasscrip
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS en HTML
