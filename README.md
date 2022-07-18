@@ -15,3 +15,10 @@ Curso Basico de Javascript
 - Segundo paso: implementar la formulas en javasscrip
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS en HTML
+
+## Taller #3: Promedio, mediana y moda
+
+- Primer paso: definir las formulas
+- Segundo paso: implementar la formulas en javasscrip
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS en HTML
